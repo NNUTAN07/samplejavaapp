@@ -33,6 +33,7 @@ public class TestLogger {
                 catch (Exception e){
                         s = util.getErrorMessage(e); 
                 }
+		
                 LOG.info(s);
                 assert(s.contains("/ by zero"));  
         }
